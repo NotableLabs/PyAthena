@@ -4,7 +4,7 @@ from typing import FrozenSet, Type
 
 from pyathena.error import *  # noqa
 
-__version__: str = "2.0.0-notable.1"
+__version__: str = "2.0.0+notable.1"
 
 # Globals https://www.python.org/dev/peps/pep-0249/#globals
 apilevel: str = "2.0"
