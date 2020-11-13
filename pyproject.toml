@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "PyAthena"
-version = "2.0.0"  # https://github.com/laughingman7743/PyAthena/blob/master/pyathena/__init__.py#L7
-description = "Python DB API 2.0 (PEP 249) client for Amazon Athena"
+version = "2.0.0.notable"  # https://github.com/laughingman7743/PyAthena/blob/master/pyathena/__init__.py#L7
+description = "Python DB API 2.0 (PEP 249) client for Amazon Athena - Modified for Notable"
 license = "MIT"
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -30,7 +30,7 @@ include = [
 # https://github.com/pandas-dev/pandas/pull/29212#issuecomment-551370118
 python = "^3.6.1"
 boto3 = ">=1.4.4"
-botocore = ">=1.5.52"
+botocore = ">=1.12"
 pandas = {version = ">=1.0.0", optional = true}
 pyarrow = {version = ">=1.0.0", optional = true}
 sqlalchemy = {version = "<2.0.0,>=1.0.0", optional = true}
